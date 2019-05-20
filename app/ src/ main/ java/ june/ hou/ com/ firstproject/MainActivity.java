@@ -10,6 +10,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.e("hou","MainActivity");
-        //爱自己 v1.0
+        //爱自己 v1.0 111
     }
 }
