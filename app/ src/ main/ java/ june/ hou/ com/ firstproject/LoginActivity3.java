@@ -52,7 +52,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
     @Override
     public void onLoaderReset(Loader<Cursor> loader) { // remote update23456789876 
-// add by hou 2019 06 11 
+// add by hou 2019 06 11 1111
 
 
 
