@@ -53,7 +53,7 @@ public abstract  class ForgetPasswordActivity extends AppCompatActivity implemen
      * Keep track of the login task to ensure we can cancel it if requested.
      */
     private UserLoginTask mAuthTask = null;
-
+    //增加注释
     // UI references.
     private AutoCompleteTextView mEmailView;
     private EditText mPasswordView;
