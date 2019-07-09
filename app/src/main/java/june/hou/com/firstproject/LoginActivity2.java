@@ -41,6 +41,7 @@ public abstract  class LoginActivity2 extends AppCompatActivity implements Loade
 
     /**
      * Id to identity READ_CONTACTS permission request.
+     * what;s a nice day !
      */
     private static final int REQUEST_READ_CONTACTS = 0;
 
