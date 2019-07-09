@@ -76,6 +76,7 @@ public abstract  class ForgetPasswordActivity extends AppCompatActivity implemen
         mPasswordView = (EditText) findViewById(R.id.password);
         mTextView =  (EditText) findViewById(R.id.password);
         mTextView.setText("haha !!!");
+        mPasswordView.setText("baichia a  ");
         mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView textView, int id, KeyEvent keyEvent) {
