@@ -79,6 +79,7 @@ public abstract  class ForgetPasswordActivity extends AppCompatActivity implemen
                     attemptLogin();
                     return true;
                 }
+                //
                 return false;
             }
         });
