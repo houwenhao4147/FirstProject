@@ -35,10 +35,11 @@ import static android.Manifest.permission.READ_CONTACTS;
 /**
  * A login screen that offers login via email/password.
  */
-public abstract  class SecondActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
+public abstract  class DevActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
 
-    /**secondActivity
+    /**
      * Id to identity READ_CONTACTS permission request.
+     * what;s a nice day !
      */
     private static final int REQUEST_READ_CONTACTS = 0;
 
@@ -271,7 +272,7 @@ public abstract  class SecondActivity extends AppCompatActivity implements Loade
     private void addEmailsToAutoComplete(List<String> emailAddressCollection) {
         //Create adapter to tell the AutoCompleteTextView what to show in its dropdown list.
         ArrayAdapter<String> adapter =
-                new ArrayAdapter<>(SecondActivity.this,
+                new ArrayAdapter<>(DevActivity.this,
                         android.R.layout.simple_dropdown_item_1line, emailAddressCollection);
 
         mEmailView.setAdapter(adapter);
