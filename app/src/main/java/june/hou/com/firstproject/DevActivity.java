@@ -40,6 +40,7 @@ public abstract  class DevActivity extends AppCompatActivity implements LoaderCa
     /**
      * Id to identity READ_CONTACTS permission request.
      * what;s a nice day !
+     * sad day
      */
     private static final int REQUEST_READ_CONTACTS = 0;
 
