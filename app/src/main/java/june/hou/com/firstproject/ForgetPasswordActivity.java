@@ -64,7 +64,7 @@ public abstract  class ForgetPasswordActivity extends AppCompatActivity implemen
     private EditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
-    private TextView mTextView ;
+    private EditText mTextView ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -74,6 +74,8 @@ public abstract  class ForgetPasswordActivity extends AppCompatActivity implemen
         populateAutoComplete();
 
         mPasswordView = (EditText) findViewById(R.id.password);
+        mTextView =  (EditText) findViewById(R.id.password);
+        mTextView.setText("haha !!!");
         mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView textView, int id, KeyEvent keyEvent) {
