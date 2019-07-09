@@ -64,7 +64,7 @@ public abstract  class ForgetPasswordActivity extends AppCompatActivity implemen
     private EditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
-
+    private TextView mTextView ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
