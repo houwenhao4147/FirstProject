@@ -39,6 +39,7 @@ public abstract  class RegisterActivity extends AppCompatActivity implements Loa
 
     /**
      * Id to identity READ_CONTACTS permission request.
+     * //hhehe
      */
     private static final int REQUEST_READ_CONTACTS = 0;
 
