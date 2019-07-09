@@ -37,6 +37,7 @@ import static android.Manifest.permission.READ_CONTACTS;
  */
 public abstract  class SecondActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
 
+    /**hello w yao
     /**secondActivity
      * Id to identity READ_CONTACTS permission request.
      */
