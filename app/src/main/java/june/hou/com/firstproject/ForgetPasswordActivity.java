@@ -94,6 +94,7 @@ public abstract  class ForgetPasswordActivity extends AppCompatActivity implemen
             @Override
             public void onClick(View view) {
                 attemptLogin();
+                //dianjishijian
             }
         });
 
