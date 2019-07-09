@@ -38,6 +38,8 @@ import static android.Manifest.permission.READ_CONTACTS;
 public abstract  class ForgetPasswordActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
 
     /**
+     * add by hou
+     * add by hou2
      * add by hou   add
      * Id to identity READ_CONTACTS permission request.
      */
@@ -77,7 +79,6 @@ public abstract  class ForgetPasswordActivity extends AppCompatActivity implemen
                     attemptLogin();
                     return true;
                 }
-                //
                 return false;
             }
         });
