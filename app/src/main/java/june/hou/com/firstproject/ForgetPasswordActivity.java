@@ -42,6 +42,7 @@ public abstract  class ForgetPasswordActivity extends AppCompatActivity implemen
      * add by hou2
      * add by hou   add
      * add by hou3
+     * add by hou master
      * Id to identity READ_CONTACTS permission request.
      */
     private static final int REQUEST_READ_CONTACTS = 0;
